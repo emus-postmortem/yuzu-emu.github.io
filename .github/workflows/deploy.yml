@@ -27,7 +27,7 @@ jobs:
       run: sudo apt-get update
     - name: Build
       env:
-        GITHUB_WIKI_URL: 'https://github.com/yuzu-emu/yuzu.wiki.git'
+        GITHUB_WIKI_URL: 'https://github.com/yuzu-mirror/yuzu.wiki.git'
         TENANT: 'yuzu'
       run: ./.ci/build.sh
     - name: Deploy
